@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>邮件签名图片生成器</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+	<div id="J_Tip">
+	</div>
+	<section class="avatar">
+		<header>
+			<h2>
+				头像设置&nbsp;[
+				<a href="#" class="j_goHelp">
+					?
+				</a>
+				]
+			</h2>
+		</header>
+		<content>
+			<div class="avatarHolder" id="J_Avatar" style="">
+				<div class="avatarMask">
+				</div>
+				<p class="avatarNotice">
+					将图片拖入左侧虚线框[
+					<a href="#" class="j_goHelp">
+						?
+					</a>
+					]或 使用
+					<a href="#" id="J_FileUp">
+						普通方式
+					</a>
+					<input type="file" />
+					上传图片
+					<br />
+					鼠标拖拽：移动
+					<br />
+					方向键：微调
+					<br />
+					shift+方向键：快速移动
+					<br />
+					-（减号）键：缩小
+					<br />
+					+（加号）键：放大
+					<br />
+					Esc键：重置
+					<br />
+					Del键：删除
+				</p>
+				<p class="avatarUse">
+				</p>
+			</div>
+		</content>
+	</section>
+	<section class="info">
+		<header>
+			<h2>
+				信息设置
+			</h2>
+		</header>
+		<content>
+			<div class="" style="display:none;">
+				<label>类型：</label><input type="checkbox" name="signtype" id="signtype"/> <label for="signtype">不需要显示手机号.<label> 
+			</div>
+			<div id="nameInfo">
+				<div class="field">
+					<input type="checkbox" name="isNeed" class="checkboxStyle" checked="checked" />
+					<label>
+						真名：
+					</label>
+					<input id="realname" type="text" maxlength="4" value="呼延辉" data-reg="[\w\W]{2,4}" />
+				</div>
+				
+				<div class="field">
+					<input type="checkbox" name="isNeed" class="checkboxStyle" checked="checked" />
+					<label>
+						职务：
+					</label>
+					<input id="position" type="text" maxlength="10" data-step="1" value="产品经理" data-reg="[\w\W]{2,10}" />
+				</div>
+			</div>
+			
+			<div id="deptBox">
+				<div class="field">
+					<input type="checkbox" name="isNeed" class="checkboxStyle" checked="checked" />
+					<label>
+						部门：
+					</label>
+					<input id="dept" class="dept" type="text" value="B2B-ICBU-国际搜索-广告产品" data-head="部门：" data-reg="^[\w\W]{1,8}$"/>
+				</div>
+			</div>
+			
+			<div id="extraInfo">
+				
+				<div class="field">
+					<input type="checkbox" name="isNeed" class="checkboxStyle" checked="checked" />
+					<label>
+						分机：
+					</label>
+					<input id="tel" class="tel" type="text" data-start="378" data-end="200" data-head="电话：" value="(0571) 85022088-" data-reg="^\([0-9]{3,4}\)\s?[0-9]{8}(-)[0-9]{5}$|(400-800-1688)" />
+				</div>
+				
+				<div class="field">
+					<input type="checkbox" name="isNeed" class="checkboxStyle" checked="checked" />
+					<label>
+						手机：
+					</label>
+					<input id="cellphone" class="cellphone" data-start="378" data-end="280" type="text" data-head="手机：" value="130123451234" data-reg="^[0-9]{11}$" />
+				</div>
+				
+				<div class="field" style="display:none;">
+					<input type="checkbox" name="isNeed" class="checkboxStyle" />
+					<label>
+						邮箱：
+					</label>
+					<input id="mail" class="mail" type="text" data-start="378" data-end="280"  data-head="邮箱：" data-tail="@alibaba-inc.com" value="json.tt" data-reg="^[\w\-\.]+" maxlength="18" />
+					<label>@alibaba-inc.com</label>
+				</div>
+				
+				<div class="field">
+					<input type="checkbox" name="isNeed" class="checkboxStyle" checked="checked" />
+					<label>
+						旺旺：
+					</label>
+					<input id="wangwang" class="wangwang" type="text" data-start="378" data-end="280"  data-head="旺旺：" data-tail="" value="aliuser01" data-reg="^[\w\-\.]+" />
+				</div>
+				
+				<div class="field">
+					<input type="checkbox" name="isNeed" class="checkboxStyle" />
+					<label>
+						TradeManager：
+					</label>
+					<input id="tradeManager" class="tradeManager" type="text" data-start="378" data-end="280"  data-head="TradeManager：" data-tail="" value="aliuser02" data-reg="^[\w\-\.]+" />
+				</div>
+				
+			</div>
+		</content>
+	</section>
+	<section class="preview">
+		<header>
+			<h2>
+				图片预览
+				<button id="J_Reset" type="button" style="margin:0 20px 0 290px;">
+					重置
+				</button>
+				<button id="J_Save" type="button">
+					生成图片
+				</button>
+			</h2>
+		</header>
+		<content>
+			<canvas id="J_Sign" width="690" height="138">
+			</canvas>
+		</content>
+	</section>
+	<section class="video" style="display:none;">
+		<video poster="video.png" controls="controls">
+			<source src="http://fed.ued.tmall.net/lab/signmaker/help.ogv" />
+			<source src="http://fed.ued.tmall.net/lab/signmaker/help.mp4" />
+			<!--"images/help.ogv"-->
+		</video>
+	</section>
+	<footer>
+		<address>
+			这是有版权的。
+		</address>
+	</footer>
+	<script src="msign.js"></script>
+</body>
+</html>

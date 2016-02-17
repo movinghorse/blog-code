@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<title>转换</title>		
+	</head>
+	<style>
+		body{text-align:center;}
+		textarea{width:800px;height:300px;border:1px solid #CCCCCC;padding:4px;}
+	</style>
+	<body>
+		<h1>将字符转换成使用十六进制 unicode 表示</h1>
+		<textarea id="inputText" onkeyup="encode();" placeholder="在此输入要被转换的字符"></textarea>
+		<textarea id="resultText" ondblclick="this.select();" readonly="readonly"></textarea>
+	<script>
+	
+	var encode = function(){
+		var str = document.getElementById('inputText').value;
+		var rs = '';
+		for(var i =0, len = str.length; i < len; i++){
+			var s = str.charCodeAt(i).toString(16);
+			if(s.length == 3){
+				s = '0' + s;
+			}
+			if(s.length == 2){
+				s = '00' + s;
+			}
+			if(s.length == 1){
+				s = '000' + s;
+			}
+			rs = rs + '\\u' + s;
+		}
+		document.getElementById('resultText').value = rs;
+	}
+	</script>
+
+	</body>
+</html>
