@@ -31,7 +31,7 @@ jobs:
       - name: Install Hexo
         run: npm install -g hexo-cli  # 安装 Hexo 命令行工具
       - name: Install Dependencies
-        run: npm install
+        run: npm install --force
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
