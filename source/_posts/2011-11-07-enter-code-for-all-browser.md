@@ -30,6 +30,7 @@ Unix系统里，每行结尾只有“<换行>”，即“\n”；Windows系统�
 
 
 就是因为有这样分歧，回车在各个浏览器中的表现也不一致，这个很无耻。
+```html
 <pre lang="html4strict">
 <!DOCTYPE html>
 <html>
@@ -49,6 +50,7 @@ Unix系统里，每行结尾只有“<换行>”，即“\n”；Windows系统�
 	</body>
 </html>
 </pre>
+```
 首先，在IE6,7,8中，还是比较坚持的，所有的回车都是\r\n。用encodeURIComponent出来都是%0D%0A
 在IE9中，就完全改了，但还是比较坚持的，所有回车都是\n。用encodeURIComponent出来都是%0A
 但是在FF或者Chrome中，对input type="hidden" 的处理是不一样的，其如果value='\r\n',用encodeURIComponent出来是%0D%0A.其他全部都是%0A
