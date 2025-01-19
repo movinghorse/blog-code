@@ -1,4 +1,2 @@
-blog
-====
-
-my github blog
+# 介绍
+My Blog Code By Hexo
