@@ -13,7 +13,7 @@ meta:
   _wp_old_slug: 1988-i-want-to-tal
   dsq_thread_id: '404482940'
 ---
-<a href="http://www.yeahxj.com/wp-content/uploads/1988.jpg"><img src="http://www.yeahxj.com/wp-content/uploads/1988.jpg" alt="1988：我想和这个世界谈谈" title="1988" width="383" height="544" class="size-full wp-image-376" /></a>
+<a href="/wp-content/uploads/1988.jpg"><img src="/wp-content/uploads/1988.jpg" alt="1988：我想和这个世界谈谈" title="1988" width="383" height="544" class="size-full wp-image-376" /></a>
 <strong>其实这本书早就看完了，当时摘录了一些文字，不敢独藏，唯有共享。</strong>
 -------------------------------------------------------------------------------------------------------------------------
 孟孟瞪大眼睛，看着我，说，你知道么，如果当时这段视频能发出去，也许我早就红了。

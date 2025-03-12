@@ -13,7 +13,7 @@ meta:
   edg_digg_count: '0'
   dsq_thread_id: '404521155'
 ---
-<a href="http://www.yeahxj.com/wp-content/uploads/p469435742.jpg"><img class="alignnone size-full wp-image-292" title="p469435742" src="http://www.yeahxj.com/wp-content/uploads/p469435742.jpg" alt="" width="300" height="450" /></a><a href="http://www.yeahxj.com/wp-content/uploads/W020090512523814355279.jpg"><img class="alignnone size-full wp-image-291" title="W020090512523814355279" src="http://www.yeahxj.com/wp-content/uploads/W020090512523814355279.jpg" alt="" width="390" height="322" /></a>
+<a href="/wp-content/uploads/p469435742.jpg"><img class="alignnone size-full wp-image-292" title="p469435742" src="/wp-content/uploads/p469435742.jpg" alt="" width="300" height="450" /></a><a href="/wp-content/uploads/W020090512523814355279.jpg"><img class="alignnone size-full wp-image-291" title="W020090512523814355279" src="/wp-content/uploads/W020090512523814355279.jpg" alt="" width="390" height="322" /></a>
 
 简介：本名邵夷贝，昵称小毛。北京大学新闻系毕业。原创民谣歌手，独立音乐人。文字、绘画、戏剧创作者。
 流派：民谣/Folk

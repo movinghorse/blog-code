@@ -13,7 +13,7 @@ meta:
   edg_digg_count: '3'
   dsq_thread_id: '404521041'
 ---
-<a href="http://www.yeahxj.com/wp-content/uploads/firefox-chrome-ie.png"><img class="size-full wp-image-248" title="firefox-chrome-ie" src="http://www.yeahxj.com/wp-content/uploads/firefox-chrome-ie.png" alt="firefox-chrome-ie" width="225" height="207" /></a>
+<a href="/wp-content/uploads/firefox-chrome-ie.png"><img class="size-full wp-image-248" title="firefox-chrome-ie" src="/wp-content/uploads/firefox-chrome-ie.png" alt="firefox-chrome-ie" width="225" height="207" /></a>
 
 有道 "Firefox在速度上暂时落后于chrome safari和opera。原因并不是Mozilla技术差，而是因为其他浏览器支持的javascript，只是Firefox的一个子集，有很多东西，被其他浏览器忽略了。
 <strong> 1)只有Firefox支持E4X：</strong>

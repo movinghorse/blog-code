@@ -27,4 +27,4 @@ meta:
 第四张专辑 All I Ever Wanted 推出时间 2009年3月10日 全美销量 810,000 全球销量 1,500,000
 <h3><strong>自己曾今无比喜欢这首歌，原版的我就不推荐了，传唱无数，街头巷尾，随处可听！这首是我最近发现的另外一个版本，Kelly Clarkson ft.Reba Mcentire - Because Of You (2rd Version)，也是无比动听！</strong></h3>
 
-<a href="http://www.yeahxj.com/wp-content/uploads/Kelly-Clarkson.jpg"><img class="alignnone size-full wp-image-202" title="Kelly-Clarkson" src="http://www.yeahxj.com/wp-content/uploads/Kelly-Clarkson.jpg" alt="" width="500" height="500" /></a>
+<a href="/wp-content/uploads/Kelly-Clarkson.jpg"><img class="alignnone size-full wp-image-202" title="Kelly-Clarkson" src="/wp-content/uploads/Kelly-Clarkson.jpg" alt="" width="500" height="500" /></a>

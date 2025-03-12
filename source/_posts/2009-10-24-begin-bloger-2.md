@@ -15,7 +15,7 @@ meta:
   _wp_old_slug: ! '%e5%8d%9a%e5%ae%a2%e6%90%ac%e5%ae%b6%e5%ae%8c%e6%88%90%ef%bc%8c%e6%8d%a2%e4%ba%86%e4%b8%bb%e6%9c%ba%ef%bc%8c%e6%8d%a2%e5%88%b0%e4%ba%86wp%ef%bc%8c%e4%b8%80%e5%88%87%e4%bb%8e%e5%a4%b4%e5%bc%80%e5%a7%8b'
   dsq_thread_id: '404520685'
 ---
-<img class="alignnone size-full wp-image-97" title="创造" src="http://www.yeahxj.com/wp-content/uploads/20070424143801851240.jpg" alt="创造" width="500" height="685" />
+<img class="alignnone size-full wp-image-97" title="创造" src="/wp-content/uploads/20070424143801851240.jpg" alt="创造" width="500" height="685" />
 用了两年的Win主机和PJBlog终于退场了，主机是用钱买的，没必要感谢。PJBlog是免费用的，感谢下腾讯的<a title="PuterJam" href="http://www.pjhome.net/" target="_blank">PuterJam</a>同学，此asp博客已经灰常不错了！
 
 既然都换了，但是数据还是要啊，所以得把原来在PJBlog中的数据导入到WP中，这里介绍我使用的一种简单方法。

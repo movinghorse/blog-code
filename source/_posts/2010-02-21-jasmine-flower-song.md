@@ -13,7 +13,7 @@ meta:
   edg_digg_count: '1'
   dsq_thread_id: '404520910'
 ---
-<a href="http://www.yeahxj.com/wp-content/uploads/molihua.jpg"><img class="size-full wp-image-210" title="茉莉花" src="http://www.yeahxj.com/wp-content/uploads/molihua.jpg" alt="好一朵美丽的茉莉花" width="550" height="778" /></a>
+<a href="/wp-content/uploads/molihua.jpg"><img class="size-full wp-image-210" title="茉莉花" src="/wp-content/uploads/molihua.jpg" alt="好一朵美丽的茉莉花" width="550" height="778" /></a>
 
 试听1：<object id="divmp3" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="325" height="28" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.divshare.com/flash/playlist?myId=10541401-a37" /><param name="name" value="divmp3" /><embed id="divmp3" type="application/x-shockwave-flash" width="325" height="28" src="http://www.divshare.com/flash/playlist?myId=10541401-a37" name="divmp3"></embed></object>
 

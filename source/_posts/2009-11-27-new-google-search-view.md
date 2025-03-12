@@ -14,7 +14,7 @@ meta:
   _wp_old_slug: ! '%e6%96%b0google%e6%90%9c%e7%b4%a2%e5%b1%95%e7%a4%ba'
   dsq_thread_id: '404520801'
 ---
-<a href="http://www.yeahxj.com/wp-content/uploads/new-google.jpg"><img class="size-medium wp-image-119" title="new-google" src="http://www.yeahxj.com/wp-content/uploads/new-google-300x194.jpg" alt="新Google搜索展示" width="300" height="194" /></a>
+<a href="/wp-content/uploads/new-google.jpg"><img class="size-medium wp-image-119" title="new-google" src="/wp-content/uploads/new-google-300x194.jpg" alt="新Google搜索展示" width="300" height="194" /></a>
 
 单击看大图，看高清吧！
 

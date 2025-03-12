@@ -13,7 +13,7 @@ meta:
   edg_digg_count: '1'
   dsq_thread_id: '404520875'
 ---
-<a href="http://www.yeahxj.com/wp-content/uploads/c728354.jpg"><img src="http://www.yeahxj.com/wp-content/uploads/c728354.jpg" alt="正则表达式" title="正则表达式" width="500" height="307" class="size-full wp-image-219" /></a>
+<a href="/wp-content/uploads/c728354.jpg"><img src="/wp-content/uploads/c728354.jpg" alt="正则表达式" title="正则表达式" width="500" height="307" class="size-full wp-image-219" /></a>
 <pre lang="javascript" line="1">
 var r = /^\w+?([\.]?[a-zA-Z0-9\-]+)*?@[a-zA-Z0-9]+([-.][a-zA-Z0-9]+)*\.[a-zA-Z]+$/;
 var s = r.test('asdfasdfasdfasdfasdfasdfasdfasdfasdsdffgggasdfa');

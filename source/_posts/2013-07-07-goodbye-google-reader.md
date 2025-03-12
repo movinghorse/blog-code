@@ -11,7 +11,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-<img src="http://www.yeahxj.com/wp-content/uploads/1363250578970.jpeg" alt="Google Reader" width="610" height="254" class="size-full wp-image-452" />
+<img src="/wp-content/uploads/1363250578970.jpeg" alt="Google Reader" width="610" height="254" class="size-full wp-image-452" />
 
 原本我是打算发微博的，发现微博140个字不够用。
 

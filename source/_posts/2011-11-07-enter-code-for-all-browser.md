@@ -14,7 +14,7 @@ meta:
 先认识下回车符：
 
 
-<a href="http://www.yeahxj.com/wp-content/uploads/ASR-33_21.jpg"><img src="http://www.yeahxj.com/wp-content/uploads/ASR-33_21.jpg" alt="" title="ASR-33_2" width="500" height="375" class="alignnone size-full wp-image-391" /></a>
+<a href="/wp-content/uploads/ASR-33_21.jpg"><img src="/wp-content/uploads/ASR-33_21.jpg" alt="" title="ASR-33_2" width="500" height="375" class="alignnone size-full wp-image-391" /></a>
 
 
 在计算机还没有出现之前，有一种叫做电传打字机（Teletype Model 33）的玩意，每秒钟可以打10个字符。但是它有一个问题，就是打完一行换行的时候，要用去0.2秒，正好可以打两个字符。要是在这0.2秒里面，又有新的字符传过来，那么这个字符将丢失。

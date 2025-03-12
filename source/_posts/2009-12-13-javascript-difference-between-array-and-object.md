@@ -13,7 +13,7 @@ meta:
   edg_digg_count: '2'
   dsq_thread_id: '438006222'
 ---
-<a href="http://www.yeahxj.com/wp-content/uploads/javascript-the-good-parts.jpg"><img class="size-full wp-image-133" title="javascript-the-good-parts" src="http://www.yeahxj.com/wp-content/uploads/javascript-the-good-parts.jpg" alt="Javascript 语言精粹" width="300" height="400" /></a>
+<a href="/wp-content/uploads/javascript-the-good-parts.jpg"><img class="size-full wp-image-133" title="javascript-the-good-parts" src="/wp-content/uploads/javascript-the-good-parts.jpg" alt="Javascript 语言精粹" width="300" height="400" /></a>
 
 <strong>看《Javascript语言精粹》上看到的，挺有意思的，权当记录。</strong>
 

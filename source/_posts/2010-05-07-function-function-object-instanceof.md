@@ -24,7 +24,7 @@ alert(Foo instanceof Function); // true
 alert(Foo instanceof Object); // true</pre>
 先上图：
 
-<a href="http://www.yeahxj.com/wp-content/uploads/javascript_object_layout.jpg"><img class="alignnone size-full wp-image-261" title="javascript_object_layout" src="http://www.yeahxj.com/wp-content/uploads/javascript_object_layout.jpg" alt="" width="611" height="760" /></a>
+<a href="/wp-content/uploads/javascript_object_layout.jpg"><img class="alignnone size-full wp-image-261" title="javascript_object_layout" src="/wp-content/uploads/javascript_object_layout.jpg" alt="" width="611" height="760" /></a>
 
 以上这张图杂乱无章，其实我不太看懂，那先看下下面这些例子：
 

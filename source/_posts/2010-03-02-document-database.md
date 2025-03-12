@@ -13,7 +13,7 @@ meta:
   edg_digg_count: '1'
   dsq_thread_id: '404520971'
 ---
-<a href="http://www.yeahxj.com/wp-content/uploads/sketch.png"><img class="size-full wp-image-238" title="CouchDB" src="http://www.yeahxj.com/wp-content/uploads/sketch.png" alt="CouchDB" width="292" height="340" /></a>
+<a href="/wp-content/uploads/sketch.png"><img class="size-full wp-image-238" title="CouchDB" src="/wp-content/uploads/sketch.png" alt="CouchDB" width="292" height="340" /></a>
 
 事情的来源是：
 

@@ -14,7 +14,7 @@ meta:
   edg_digg_count: '0'
   dsq_thread_id: '404521061'
 ---
-<a href="http://www.yeahxj.com/wp-content/uploads/opensourceubuntu.jpg"><img class="alignnone size-full wp-image-252" title="open-source-ubuntu" src="http://www.yeahxj.com/wp-content/uploads/opensourceubuntu.jpg" alt="" width="500" height="333" /></a>
+<a href="/wp-content/uploads/opensourceubuntu.jpg"><img class="alignnone size-full wp-image-252" title="open-source-ubuntu" src="/wp-content/uploads/opensourceubuntu.jpg" alt="" width="500" height="333" /></a>
 <h3>什么是许可协议？</h3>
 什么是许可，当你为你的产品签发许可，你是在出让自己的权利，不过，你仍然拥有版权和专利（如果申请了的话），许可的目的是，向使用你产品的人提供一定的权限。
 
