@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 行骏
-subtitle: ''
-description: ''
-keywords: ''
+title: '行骏'
+subtitle: '行骏的笔记'
+description: '行骏的个人博客，记录行骏的所思所想'
+keywords: '行骏,行骏的博客,行骏的个人博客'
 author: 'Xj Ye'
 language: zh-CN
 timezone: ''
