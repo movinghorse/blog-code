@@ -1,6 +1,66 @@
+---
+title: 关于我
+date: 2024-01-01
+layout: page
+---
+
 # 关于我
-- 👋 Hi, I’m @movinghorse
-- 👀 I’m interested in FE
-- 🌱 I’m currently learning AI
-- 💞️ I’m looking to collaborate on technology
-- 📫 How to reach me ... leave a message ... 
+
+## 👋 个人简介
+
+你好！我是 @movinghorse，一名热爱技术的前端开发者。
+
+## 🚀 技术兴趣
+
+- **前端开发**: 专注于现代前端技术栈，包括 React、Vue、TypeScript 等
+- **人工智能**: 正在学习 AI 相关技术，探索前端与 AI 的结合
+- **开源项目**: 积极参与开源社区，分享技术经验
+
+## 💼 专业技能
+
+### 前端技术
+- JavaScript/TypeScript
+- React/Vue.js
+- HTML5/CSS3
+- Node.js
+- 前端工程化工具
+
+### 其他技能
+- Git 版本控制
+- 敏捷开发
+- 技术写作
+- 团队协作
+
+## 🌱 学习方向
+
+目前正在深入学习：
+- 人工智能与机器学习
+- 前端性能优化
+- 微前端架构
+- Web3 技术
+
+## 💞️ 合作意向
+
+我热衷于与其他开发者合作，特别是在以下领域：
+- 开源项目开发
+- 技术分享与交流
+- 前端技术创新
+- AI 应用开发
+
+## 📫 联系方式
+
+如果你想与我交流技术或合作项目，欢迎通过以下方式联系我：
+
+- **GitHub**: [@movinghorse](https://github.com/movinghorse)
+- **博客**: 本站点
+- **邮箱**: 请在博客留言
+
+## 🎯 个人理念
+
+> 技术改变世界，学习永无止境。
+
+我相信通过不断学习和实践，我们可以用技术创造更美好的世界。每一行代码都是对未来的投资，每一次分享都是对社区的贡献。
+
+---
+
+*最后更新: 2025年*

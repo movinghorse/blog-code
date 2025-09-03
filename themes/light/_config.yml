@@ -1,6 +1,7 @@
 menu:
   Home:
   Archives: archives
+  About: aboutme.html
 
 widgets:
 - search
