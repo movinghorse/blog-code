@@ -1,6 +1,9 @@
 menu:
   Home:
   Archives: archives
+  Tools: tools/
+  Coding: coding/
+  Jobs: jobs/
   About: aboutme.html
 
 widgets:
