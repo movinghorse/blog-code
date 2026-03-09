@@ -1,7 +1,7 @@
 # 工作流名称
 name: Deploy to GitHub Pages
 
-# 触发条件：推送到 main 分支（可改成你的分支，如 master）
+# 触发条件：推送到 main 分支
 on:
   push:
     branches: [ main ]
@@ -15,17 +15,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 步骤2：（可选）构建项目（如果是Vue/React/Hexo等需要打包的项目，取消下面注释并适配）
+      # 步骤2：构建项目
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20  # 适配你的项目Node版本
-      - name: Install Hexo
-        run: npm install -g hexo-cli  # 安装 Hexo 命令行工具
       - name: Install dependencies
         run: npm install
       - name: Build project
-        run: npm run build  # 打包命令，生成dist/build目录
+        run: npm run build  # 打包命令，生成public目录
 
       # 步骤3：部署到GitHub Pages
       - name: Deploy to GitHub Pages
