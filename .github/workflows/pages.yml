@@ -1,53 +1,39 @@
-name: Pages
+# 工作流名称
+name: Deploy to GitHub Pages
 
+# 触发条件：推送到 main 分支（可改成你的分支，如 master）
 on:
   push:
-    branches:
-      - main # default branch
+    branches: [ main ]
 
+# 执行任务
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest  # 运行环境
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # If your repository depends on submodule, please see: https://github.com/actions/checkout
-          submodules: recursive
-      - name: Use Node.js 18
+      # 步骤1：拉取仓库代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 步骤2：（可选）构建项目（如果是Vue/React/Hexo等需要打包的项目，取消下面注释并适配）
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
-          # Ref: https://github.com/actions/setup-node#supported-version-syntax
-          node-version: "18"
-#      - name: Cache NPM dependencies
-#        uses: actions/cache@v4
-#        with:
-#          path: node_modules
-#          key: ${{ runner.OS }}-npm-cache
-#          restore-keys: |
-#            ${{ runner.OS }}-npm-cache
-
+          node-version: 20  # 适配你的项目Node版本
       - name: Install Hexo
         run: npm install -g hexo-cli  # 安装 Hexo 命令行工具
-      - name: Install Dependencies
-        run: npm install --force
-      - name: Build
-        run: npm run build
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-  deploy:
-    needs: build
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
+      - name: Install dependencies
+        run: npm install
+      - name: Build project
+        run: npm run build  # 打包命令，生成dist/build目录
+
+      # 步骤3：部署到GitHub Pages
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v4  # 成熟的部署插件
+        with:
+          # GitHub自动生成的密钥，无需手动配置
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 要部署的文件目录（纯静态页填./，Vue/React填./dist，Hexo填./public）
+          publish_dir: ./public
+          # 部署到gh-pages分支（GitHub Pages默认读取该分支）
+          publish_branch: gh-pages
