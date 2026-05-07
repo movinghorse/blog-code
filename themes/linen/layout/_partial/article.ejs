@@ -1,0 +1,15 @@
+<article class="article">
+  <% var pageLayout = typeof isPage !== 'undefined' && isPage; %>
+  <header class="article-header">
+    <% if (!pageLayout && post.date){ %>
+      <time datetime="<%= post.date.toDate().toISOString() %>"><%= post.date.format(config.date_format) %></time>
+    <% } %>
+    <h1><%= post.title || config.title %></h1>
+    <% if (!pageLayout){ %>
+      <%- partial('meta', {post: post}) %>
+    <% } %>
+  </header>
+  <div class="article-body">
+    <%- post.content %>
+  </div>
+</article>

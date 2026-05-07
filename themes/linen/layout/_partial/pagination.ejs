@@ -1,0 +1,12 @@
+<% if (page.prev || page.next){ %>
+  <nav class="pager" aria-label="Pagination">
+    <% if (page.prev){ %>
+      <a href="<%- url_for(page.prev_link) %>"><%= __('prev') %></a>
+    <% } else { %>
+      <span></span>
+    <% } %>
+    <% if (page.next){ %>
+      <a href="<%- url_for(page.next_link) %>"><%= __('next') %></a>
+    <% } %>
+  </nav>
+<% } %>

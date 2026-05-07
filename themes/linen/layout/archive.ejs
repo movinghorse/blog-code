@@ -1,0 +1,12 @@
+<section class="archive-head">
+  <p class="eyebrow"><%= __('archive') %></p>
+  <h1><%= page.year ? page.year + (page.month ? '/' + page.month : '') : __('all') %></h1>
+</section>
+
+<section class="post-list archive-list" aria-label="Archive">
+  <% page.posts.each(function(post){ %>
+    <%- partial('_partial/post_list_item', {post: post}) %>
+  <% }); %>
+</section>
+
+<%- partial('_partial/pagination') %>

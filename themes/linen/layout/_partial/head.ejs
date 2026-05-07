@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<%
+var title = [];
+if (page.current > 1) title.push(__('page', page.current));
+if (page.title) title.push(page.title);
+if (page.category) title.push(page.category);
+if (page.tag) title.push(page.tag);
+if (page.archive) title.push(__('archive'));
+title.push(config.title);
+%>
+<title><%= title.join(' | ') %></title>
+<% if (config.author){ %><meta name="author" content="<%= config.author %>"><% } %>
+<% if (page.description){ %>
+<meta name="description" content="<%= page.description %>">
+<% } else if (config.description){ %>
+<meta name="description" content="<%= config.description %>">
+<% } %>
+<% if (page.keywords || config.keywords){ %><meta name="keywords" content="<%= page.keywords || config.keywords %>"><% } %>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:site_name" content="<%= config.title %>">
+<% if (page.title){ %><meta property="og:title" content="<%= page.title %>"><% } %>
+<link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
+<link rel="stylesheet" href="<%- config.root %>css/style.css">

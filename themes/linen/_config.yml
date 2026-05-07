@@ -1,0 +1,10 @@
+menu:
+  Home:
+  Archives: archives
+  Tools: tools/
+  Coding: coding/
+  Jobs: jobs/
+  About: aboutme.html
+
+excerpt_link: Continue reading
+rss:

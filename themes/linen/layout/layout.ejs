@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="<%= config.language || 'zh-CN' %>">
+  <head>
+    <%- partial('_partial/head') %>
+  </head>
+  <body>
+    <div class="site-shell">
+      <%- partial('_partial/header') %>
+      <main class="site-main">
+        <%- body %>
+      </main>
+      <%- partial('_partial/footer') %>
+    </div>
+  </body>
+</html>

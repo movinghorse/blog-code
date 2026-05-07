@@ -1,0 +1,12 @@
+<section class="home-intro">
+  <p class="eyebrow"><%= config.subtitle || config.title %></p>
+  <h1><%= config.description || config.title %></h1>
+</section>
+
+<section class="post-list" aria-label="Posts">
+  <% page.posts.each(function(post){ %>
+    <%- partial('_partial/post_list_item', {post: post}) %>
+  <% }); %>
+</section>
+
+<%- partial('_partial/pagination') %>
